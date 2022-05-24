@@ -1,6 +1,6 @@
 import re
 
-def analiseLexica():
+def analiseSintatica():
     f = open("calculadoraBasica.c", "r") #Abre o arquivo para leitura
     lines = f.readlines()
 
@@ -112,6 +112,6 @@ def analiseLexica():
         print(key + " - " + tokens[key])
     
 def main():
-    analiseLexica()
+    analiseSintatica()
 
 main()
