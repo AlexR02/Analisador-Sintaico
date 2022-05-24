@@ -4,7 +4,7 @@
 
 Para compilar o programa é necessário utilizar o python3 e basta utilizar o seguinte comando no terminal:
 
-``python3 analiseLexica.py`` 
+``python3 analiseSintatica.py`` 
 
 O retorno da execução será um print contendo todos os tokens encontrados e sua devida descrição.
 
